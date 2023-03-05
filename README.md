@@ -58,3 +58,5 @@ The Screenshot below is a sample transformed  data which contains street level c
 * The column `Authority no outcome` is to highlight authorities that do not provide an outcome.
 
 ![1678054698530](image/README/1678054698530.png)
+
+![1678059745774](image/README/1678059745774.png)
