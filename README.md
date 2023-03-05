@@ -12,25 +12,16 @@ My thoughts to make it is below, details is in notebook `Police_UK_API.ipynb`
 
 For a simple demo see `Police_UK_API_lite.ipynb`
 
-| step | task | tools | notes |
-
-|----------|----------|----------|----------|
-
-| 1 | download data | `wget`,`police-api-client` | archived data|
-
-| 2 | prepare data| `pandas`| read all .csv files from multiple folders |
-
-| 3 | descriptive analysis | `pandas`,`police-api-client` | check missing values,columns |
-
-| 4 | data vistualization | `plotly`, `cufflinks` | vistualise |
-
-| 5 | propress data | `Python` | process data according to requirements|
-
-| 6 | create database | `MySQLWorkbench` | create a database to store data|
-
-| 7 | upload to database | `chimney` | upload  data to exisiting table |
-
-| 8 | finalise | `MySQL` |  finalise ETL (Extraction, Transformation and )|
+|   | task                 | tools                            | notes                                          |
+| - | -------------------- | -------------------------------- | ---------------------------------------------- |
+| 1 | download data        | `wget`,`police-api-client`   | archived data                                  |
+| 2 | prepare data         | `pandas`                       | read all .csv files from multiple folders      |
+| 3 | descriptive analysis | `pandas`,`police-api-client` | check missing values,columns                   |
+| 4 | data vistualization  | `plotly`, `cufflinks`        | vistualise                                     |
+| 5 | propress data        | `Python`                       | process data according to requirements         |
+| 6 | create database      | `MySQLWorkbench`               | create a database to store data                |
+| 7 | upload to database   | `chimney`                      | upload  data to exisiting table                |
+| 8 | finalise             | `MySQL`                        | finalise ETL (Extraction, Transformation and ) |
 
 
 This Task consist of three main step, exreact, transform and load.
