@@ -55,6 +55,6 @@ The Screenshot below is a sample transformed  data which contains street level c
 
 * The column `Falls Within` is the nearest police station
 * The column `Outcome type` indicates a investigated crime and a crime with outcome
-* The column ``
+* The column `Authority no outcome` is to highlight authorities that do not provide an outcome.
 
 ![1678054698530](image/README/1678054698530.png)
